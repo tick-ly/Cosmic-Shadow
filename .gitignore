@@ -12,7 +12,6 @@ obj/
 
 # Local helper folders
 .claude/
-memory/
 recent_files.txt
 tls-cert-backups/
 
