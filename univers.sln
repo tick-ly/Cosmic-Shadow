@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{A39C23D2-F2C0-258D-165A-CF1E7FEE6E7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp_test", "csharp_test", "{5268F8C9-1492-E359-6906-D44A9E234401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEnvTest", "demo\csharp_test\CSharpEnvTest\CSharpEnvTest.csproj", "{B28BD73F-E80F-A70E-BFC9-40A97E9804E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B28BD73F-E80F-A70E-BFC9-40A97E9804E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28BD73F-E80F-A70E-BFC9-40A97E9804E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28BD73F-E80F-A70E-BFC9-40A97E9804E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28BD73F-E80F-A70E-BFC9-40A97E9804E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5268F8C9-1492-E359-6906-D44A9E234401} = {A39C23D2-F2C0-258D-165A-CF1E7FEE6E7B}
+		{B28BD73F-E80F-A70E-BFC9-40A97E9804E0} = {5268F8C9-1492-E359-6906-D44A9E234401}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88656FB1-2067-48A2-829E-729E89DD6D4D}
+	EndGlobalSection
+EndGlobal

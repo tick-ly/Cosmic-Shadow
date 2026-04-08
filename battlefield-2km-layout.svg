@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 2400 2000">
+  <defs>
+    <style>
+      .title { font: 700 44px 'Segoe UI', Arial, sans-serif; fill: #f3efe4; }
+      .subtitle { font: 400 20px 'Segoe UI', Arial, sans-serif; fill: #c9d2cf; }
+      .legendTitle { font: 700 24px 'Segoe UI', Arial, sans-serif; fill: #f3efe4; }
+      .legend { font: 400 18px 'Segoe UI', Arial, sans-serif; fill: #d9e1df; }
+      .small { font: 400 16px 'Segoe UI', Arial, sans-serif; fill: #b8c2c0; }
+      .point { font: 700 24px 'Segoe UI', Arial, sans-serif; fill: #0b1313; }
+      .pointName { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #f2f6f5; }
+      .gridLabel { font: 400 14px 'Segoe UI', Arial, sans-serif; fill: #90a19d; }
+      .zone { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #e9efed; letter-spacing: 1px; }
+    </style>
+    <pattern id="minorGrid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#243331" stroke-width="1"/>
+    </pattern>
+    <pattern id="majorGrid" width="500" height="500" patternUnits="userSpaceOnUse">
+      <rect width="500" height="500" fill="url(#minorGrid)"/>
+      <path d="M 500 0 L 0 0 0 500" fill="none" stroke="#37504c" stroke-width="3"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="2400" height="2000" fill="#121a1a"/>
+  <rect x="60" y="60" width="2000" height="1880" rx="24" fill="#182322" stroke="#5a726d" stroke-width="4" filter="url(#shadow)"/>
+  <rect x="60" y="60" width="2000" height="1880" rx="24" fill="url(#majorGrid)" opacity="0.9"/>
+
+  <text x="90" y="115" class="title">Battlefield-Style 2km x 2km Graybox</text>
+  <text x="90" y="148" class="subtitle">Scale: 1 map unit = 1 meter | Suggested match size: 16v16 | 5 capture points | 3 main fronts</text>
+
+  <polygon points="120,230 460,150 820,180 990,270 860,420 520,470 220,400" fill="#2a3c32" opacity="0.85"/>
+  <text x="430" y="290" class="zone">NORTH RIDGE</text>
+
+  <polygon points="1290,170 1860,120 1980,360 1760,640 1400,620 1230,390" fill="#2c3538" opacity="0.88"/>
+  <text x="1500" y="340" class="zone">QUARRY</text>
+
+  <polygon points="170,1280 610,1200 760,1370 700,1710 280,1820 120,1640" fill="#334031" opacity="0.84"/>
+  <text x="300" y="1480" class="zone">SOUTH FARMS</text>
+
+  <polygon points="1280,1180 1760,1120 1960,1310 1900,1760 1490,1840 1220,1600" fill="#303c2e" opacity="0.84"/>
+  <text x="1450" y="1490" class="zone">EAST ORCHARD</text>
+
+  <polygon points="640,650 910,540 1140,650 1160,890 980,1120 760,1080 620,900" fill="#44514b" opacity="0.9"/>
+  <text x="760" y="820" class="zone">TOWN</text>
+
+  <path d="M 1080 0 C 980 180, 960 360, 1030 520 C 1110 700, 1260 880, 1240 1060 C 1210 1290, 980 1480, 940 2000" fill="none" stroke="#4b7d86" stroke-width="140" opacity="0.42"/>
+  <path d="M 1080 0 C 980 180, 960 360, 1030 520 C 1110 700, 1260 880, 1240 1060 C 1210 1290, 980 1480, 940 2000" fill="none" stroke="#7fbec8" stroke-width="18" opacity="0.65"/>
+  <text x="1040" y="980" class="zone" transform="rotate(86 1040 980)">RIVER / LOWLAND</text>
+
+  <path d="M 240 1640 L 360 1520 L 720 1150 L 1100 1030" fill="none" stroke="#d6b35d" stroke-width="18" opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1590 700 L 1460 820 L 1100 1030" fill="none" stroke="#d6b35d" stroke-width="18" opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1460 820 L 1100 1030 L 1500 1280" fill="none" stroke="#d6b35d" stroke-width="18" opacity="0.95" stroke-linecap="round"/>
+  <text x="610" y="1110" class="small">Main vehicle lane</text>
+  <text x="1350" y="930" class="small">Main vehicle lane</text>
+
+  <path d="M 360 1520 L 520 1370 L 650 1260 L 720 1150" fill="none" stroke="#8fe388" stroke-width="10" stroke-dasharray="22 16" stroke-linecap="round"/>
+  <path d="M 720 1150 L 820 1080 L 950 1110 L 1100 1030" fill="none" stroke="#8fe388" stroke-width="10" stroke-dasharray="22 16" stroke-linecap="round"/>
+  <path d="M 1460 820 L 1360 760 L 1240 860 L 1100 1030" fill="none" stroke="#8fe388" stroke-width="10" stroke-dasharray="22 16" stroke-linecap="round"/>
+  <path d="M 1100 1030 L 1240 1130 L 1360 1210 L 1500 1280" fill="none" stroke="#8fe388" stroke-width="10" stroke-dasharray="22 16" stroke-linecap="round"/>
+  <text x="430" y="1405" class="small">Infantry flank</text>
+  <text x="840" y="1070" class="small">Infantry flank</text>
+  <text x="1290" y="790" class="small">Infantry flank</text>
+  <text x="1300" y="1190" class="small">Infantry flank</text>
+
+  <circle cx="360" cy="1520" r="86" fill="#87a66c" stroke="#edf7cc" stroke-width="6"/>
+  <text x="360" y="1528" text-anchor="middle" class="point">A</text>
+  <text x="245" y="1625" class="pointName">FARM OUTPOST</text>
+
+  <circle cx="720" cy="1150" r="86" fill="#87a66c" stroke="#edf7cc" stroke-width="6"/>
+  <text x="720" y="1158" text-anchor="middle" class="point">B</text>
+  <text x="615" y="1255" class="pointName">WEST TOWN</text>
+
+  <circle cx="1100" cy="1030" r="92" fill="#d9bd72" stroke="#fff2ca" stroke-width="6"/>
+  <text x="1100" y="1038" text-anchor="middle" class="point">C</text>
+  <text x="995" y="1140" class="pointName">BRIDGE HUB</text>
+
+  <circle cx="1460" cy="820" r="86" fill="#87a66c" stroke="#edf7cc" stroke-width="6"/>
+  <text x="1460" y="828" text-anchor="middle" class="point">D</text>
+  <text x="1370" y="720" class="pointName">QUARRY EDGE</text>
+
+  <circle cx="1500" cy="1280" r="86" fill="#87a66c" stroke="#edf7cc" stroke-width="6"/>
+  <text x="1500" y="1288" text-anchor="middle" class="point">E</text>
+  <text x="1380" y="1385" class="pointName">ORCHARD YARD</text>
+
+  <rect x="135" y="1565" width="210" height="150" rx="18" fill="#365a7b" stroke="#b7dfff" stroke-width="4"/>
+  <text x="240" y="1640" text-anchor="middle" class="pointName">SOUTHWEST</text>
+  <text x="240" y="1675" text-anchor="middle" class="pointName">SPAWN</text>
+
+  <rect x="1485" y="625" width="210" height="150" rx="18" fill="#7b4c37" stroke="#ffd7be" stroke-width="4"/>
+  <text x="1590" y="700" text-anchor="middle" class="pointName">EAST QUARRY</text>
+  <text x="1590" y="735" text-anchor="middle" class="pointName">SPAWN</text>
+
+  <line x1="240" y1="1565" x2="360" y2="1520" stroke="#b7dfff" stroke-width="6" opacity="0.9"/>
+  <line x1="240" y1="1565" x2="720" y2="1150" stroke="#b7dfff" stroke-width="6" opacity="0.55"/>
+  <line x1="1590" y1="775" x2="1460" y2="820" stroke="#ffd7be" stroke-width="6" opacity="0.9"/>
+  <line x1="1590" y1="775" x2="1500" y2="1280" stroke="#ffd7be" stroke-width="6" opacity="0.45"/>
+
+  <rect x="90" y="180" width="250" height="48" rx="12" fill="#2a3232" stroke="#51615f" stroke-width="2"/>
+  <text x="215" y="211" text-anchor="middle" class="legend">Main map area: 2000m x 2000m</text>
+
+  <g transform="translate(2100 80)">
+    <rect x="0" y="0" width="250" height="1820" rx="22" fill="#1a2323" stroke="#5d6c68" stroke-width="3"/>
+    <text x="24" y="52" class="legendTitle">Legend</text>
+
+    <line x1="24" y1="96" x2="112" y2="96" stroke="#d6b35d" stroke-width="12" stroke-linecap="round"/>
+    <text x="130" y="102" class="legend">Vehicle lane</text>
+
+    <line x1="24" y1="142" x2="112" y2="142" stroke="#8fe388" stroke-width="8" stroke-dasharray="18 12" stroke-linecap="round"/>
+    <text x="130" y="148" class="legend">Infantry flank</text>
+
+    <circle cx="68" cy="198" r="28" fill="#87a66c" stroke="#edf7cc" stroke-width="4"/>
+    <text x="130" y="205" class="legend">Capture point</text>
+
+    <rect x="40" y="244" width="56" height="42" rx="8" fill="#365a7b" stroke="#b7dfff" stroke-width="3"/>
+    <text x="130" y="272" class="legend">Friendly spawn</text>
+
+    <rect x="40" y="306" width="56" height="42" rx="8" fill="#7b4c37" stroke="#ffd7be" stroke-width="3"/>
+    <text x="130" y="334" class="legend">Enemy spawn</text>
+
+    <text x="24" y="408" class="legendTitle">Sector Notes</text>
+    <text x="24" y="446" class="legend">A: 农场外哨，近距攻防</text>
+    <text x="24" y="478" class="legend">B: 城镇西区，街巷推进</text>
+    <text x="24" y="510" class="legend">C: 桥头枢纽，主争夺点</text>
+    <text x="24" y="542" class="legend">D: 采石场边缘，中远对枪</text>
+    <text x="24" y="574" class="legend">E: 果园货场，载具转场</text>
+
+    <text x="24" y="648" class="legendTitle">Suggested Distances</text>
+    <text x="24" y="686" class="legend">SW Spawn to A: ~170m</text>
+    <text x="24" y="718" class="legend">East Spawn to D: ~180m</text>
+    <text x="24" y="750" class="legend">A to B: ~516m</text>
+    <text x="24" y="782" class="legend">B to C: ~399m</text>
+    <text x="24" y="814" class="legend">C to D / E: ~417m / 472m</text>
+
+    <text x="24" y="888" class="legendTitle">Design Intent</text>
+    <text x="24" y="926" class="legend">Top lane:</text>
+    <text x="24" y="954" class="small">Quarry ridge pressure</text>
+    <text x="24" y="998" class="legend">Middle lane:</text>
+    <text x="24" y="1026" class="small">Town to bridge head fight</text>
+    <text x="24" y="1070" class="legend">Bottom lane:</text>
+    <text x="24" y="1098" class="small">Farm to orchard rotation</text>
+
+    <text x="24" y="1172" class="legendTitle">Graybox Build Order</text>
+    <text x="24" y="1210" class="legend">1. Terrain height</text>
+    <text x="24" y="1242" class="legend">2. Roads and river</text>
+    <text x="24" y="1274" class="legend">3. Capture zones</text>
+    <text x="24" y="1306" class="legend">4. Hard cover modules</text>
+    <text x="24" y="1338" class="legend">5. Vehicle blockers</text>
+    <text x="24" y="1370" class="legend">6. Spawn safety lanes</text>
+
+    <text x="24" y="1444" class="legendTitle">Chunk Suggestion</text>
+    <text x="24" y="1482" class="legend">Use 256m chunks</text>
+    <text x="24" y="1514" class="small">Approx. 8 x 8 major cells</text>
+
+    <text x="24" y="1588" class="legendTitle">Use Case</text>
+    <text x="24" y="1626" class="small">Good for 16v16 graybox playtest</text>
+    <text x="24" y="1658" class="small">Expandable to 24v24 later</text>
+  </g>
+
+  <g>
+    <text x="70" y="1972" class="gridLabel">0m</text>
+    <text x="540" y="1972" class="gridLabel">500m</text>
+    <text x="1030" y="1972" class="gridLabel">1000m</text>
+    <text x="1520" y="1972" class="gridLabel">1500m</text>
+    <text x="1980" y="1972" class="gridLabel">2000m</text>
+
+    <text x="32" y="1930" class="gridLabel" transform="rotate(-90 32 1930)">0m</text>
+    <text x="32" y="1450" class="gridLabel" transform="rotate(-90 32 1450)">500m</text>
+    <text x="32" y="960" class="gridLabel" transform="rotate(-90 32 960)">1000m</text>
+    <text x="32" y="470" class="gridLabel" transform="rotate(-90 32 470)">1500m</text>
+    <text x="32" y="100" class="gridLabel" transform="rotate(-90 32 100)">2000m</text>
+  </g>
+</svg>

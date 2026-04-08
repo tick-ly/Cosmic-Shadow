@@ -1,0 +1,56 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+bin/
+obj/
+
+# Local helper folders
+.claude/
+memory/
+recent_files.txt
+tls-cert-backups/
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Unity generated files
+*.csproj
+*.unityproj
+*.slnx
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Cache and diagnostics
+UnityProject/manual-activation.log
+UnityProject/unity-batch.log
+UnityProject/casesensitivetest
+
+# Nested tutorial project cache/template content
+UnityProject/Setup Guide In-Editor Tutorial/
+
+# Optional IDE settings
+.vs/
+.vscode/
+.idea/

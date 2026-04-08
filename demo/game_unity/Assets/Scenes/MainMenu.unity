@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+UnityEngine.Object:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  1:
+    first:
+      class: {fileID: 1040, guid: 0000000000000000e000000000000000, type: 0}
+      second:
+        productName: 宇宙之影
+        companyName: YourCompany
+        defaultCursor: {fileID: 0}
+        cursor hotspot: {x: 0, y: 0}
+        m_SplashScreenBackgroundColor: {r: 0.078431375, g: 0.078431375, b: 0.15686275, a: 1}
+        m_ShowUnitySplashScreen: 1
+        m_ShowUnitySplashLogo: 1
+        m_SplashScreenOverlayOpacity: 1
+        m_SplashScreenAnimation: 1
+        m_SplashScreenLogoStyle: 1
+        m_SplashScreenDrawLogo: 1
+        m_SplashScreenBackgroundLandscapeUvs:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          xScale: 0
+          yScale: 0
+          zOrder: 0
+        m_SplashScreenBackgroundPortraitUvs:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          xScale: 0
+          yScale: 0
+          zOrder: 0
+        m_SplashScreenBackgroundCameras: []
+        m_SplashScreenLogoCameras: []
+        m_SplashScreenBackgrounds: []
+        m_SplashScreenLogos: []
+        m_WaitForFullFadeIn: 1
+        m_FadeInDuration: 2
+        m_FadeOutDuration: 2
+        m_SplashScreenBackgroundFadeInDuration: 1
+        m_SplashScreenBackgroundFadeOutDuration: 1
+        m_SplashScreenLogoFadeInDuration: 1
+        m_SplashScreenLogoFadeOutDuration: 1
+        m_SplashScreenBackgroundImage: {fileID: 0}
+        m_SplashScreenLogo: {fileID: 0}
+        m_SplashScreenDecalStoppedTime: 0
+        m_BuildPlatform: 0
+        m_BuildPlatformIcons: []
+        m_BuildPlatformBanners: []
