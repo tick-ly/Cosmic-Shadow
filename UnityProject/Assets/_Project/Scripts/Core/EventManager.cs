@@ -301,5 +301,6 @@ namespace ShadowOfTheUniverse.Core
     {
         public string UnitName;
         public string TargetNodeName;
+        public string TargetNodeId;
     }
 }

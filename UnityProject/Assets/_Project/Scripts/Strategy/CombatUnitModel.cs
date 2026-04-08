@@ -102,7 +102,8 @@ namespace ShadowOfTheUniverse.Strategy
             EventManager.Instance.Emit(GameEvents.UNIT_MOVED, new UnitMoveEventData
             {
                 UnitName = UnitName,
-                TargetNodeName = CurrentNode?.nodeName ?? "未知"
+                TargetNodeName = CurrentNode?.nodeName ?? "Unknown",
+                TargetNodeId = CurrentNode != null ? CurrentNode.mapNodeId : string.Empty
             });
         }
 

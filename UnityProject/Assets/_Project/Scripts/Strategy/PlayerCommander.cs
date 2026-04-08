@@ -41,6 +41,16 @@ namespace ShadowOfTheUniverse.Strategy
                 return;
             }
 
+            if (!string.IsNullOrEmpty(startVisualNode.mapNodeId))
+            {
+                MapNode startNode = MapManager.Instance.GetNode(startVisualNode.mapNodeId);
+                if (startNode != null)
+                {
+                    startNode.Owner = NodeOwner.Player;
+                    startNode.GarrisonStrength = 0;
+                }
+            }
+
             GameObject unitObj = Instantiate(unitPrefab, startVisualNode.transform.position, Quaternion.identity);
             unitObj.name = "Player Land Squad";
 
@@ -182,6 +192,10 @@ namespace ShadowOfTheUniverse.Strategy
             {
                 if (GameUIManager.Instance != null)
                 {
+                    if (GameUIManager.Instance.TryOpenRiskAssessmentForStarNode(clickedNode))
+                    {
+                        return;
+                    }
                     GameUIManager.Instance.ShowNodeInfo(clickedNode);
                 }
             }

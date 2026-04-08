@@ -29,6 +29,9 @@ namespace ShadowOfTheUniverse.UI
         public TextMeshProUGUI battleLogText;
         public int maxLogLines = 50;
 
+        [Header("Risk Assessment")]
+        [SerializeField] private RiskAssessmentPanel riskAssessmentPanel;
+
         private StringCache logCache = new StringCache();
         private int logLineCount;
         private object currentSelection;
@@ -37,6 +40,7 @@ namespace ShadowOfTheUniverse.UI
         {
             if (instance != null && instance != this) { Destroy(gameObject); return; }
             instance = this;
+            if (riskAssessmentPanel == null) riskAssessmentPanel = FindObjectOfType<RiskAssessmentPanel>(true);
             if (infoPanelRoot != null) infoPanelRoot.SetActive(false);
             if (battleReportRoot != null) battleReportRoot.SetActive(false);
         }
@@ -116,6 +120,30 @@ namespace ShadowOfTheUniverse.UI
                 infoPanelBody.text = body;
             }
             SetInfoPanelVisible(true);
+        }
+
+        public bool TryOpenRiskAssessmentForStarNode(StarNode node)
+        {
+            if (node == null)
+            {
+                return false;
+            }
+
+            MapNode mapNode = null;
+            if (MapManager.Instance != null)
+            {
+                if (!string.IsNullOrEmpty(node.mapNodeId))
+                {
+                    mapNode = MapManager.Instance.GetNode(node.mapNodeId);
+                }
+
+                if (mapNode == null)
+                {
+                    mapNode = MapManager.Instance.GetNodeAtWorldPosition(node.transform.position.x, node.transform.position.z);
+                }
+            }
+
+            return TryOpenRiskAssessmentForMapNode(mapNode, node.nodeName);
         }
 
         public void ShowUnitInfo(CombatUnitController unit)
@@ -234,7 +262,32 @@ namespace ShadowOfTheUniverse.UI
         private void OnUnitMoved(object data)
         {
             if (data is UnitMoveEventData md)
-                AppendBattleLog(">> " + md.UnitName + " 绉诲姩鑷?" + md.TargetNodeName);
+            {
+                AppendBattleLog(">> " + md.UnitName + " moved to " + md.TargetNodeName);
+
+                if (!string.IsNullOrEmpty(md.TargetNodeId) && MapManager.Instance != null)
+                {
+                    MapNode mapNode = MapManager.Instance.GetNode(md.TargetNodeId);
+                    TryOpenRiskAssessmentForMapNode(mapNode, md.TargetNodeName);
+                }
+            }
+        }
+
+        private bool TryOpenRiskAssessmentForMapNode(MapNode mapNode, string fallbackNodeName)
+        {
+            if (riskAssessmentPanel == null || mapNode == null)
+            {
+                return false;
+            }
+
+            if (mapNode.Owner == NodeOwner.Player)
+            {
+                return false;
+            }
+
+            CloseInfoPanel();
+            riskAssessmentPanel.OpenForNode(mapNode, fallbackNodeName);
+            return true;
         }
 
         private class StringCache
