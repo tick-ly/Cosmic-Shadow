@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2bd7aa6ec1405e832fdce15a404582, type: 3}
+  m_Name: V2Map_RelayRaid
+  m_EditorClassIdentifier: 
+  nodes:
+  - nodeId: base
+    displayName: Forward Base
+    terrain: 0
+    owner: 1
+    dangerLevel: 0
+    position: {x: -4, y: -2}
+  - nodeId: ridge
+    displayName: Broken Ridge
+    terrain: 0
+    owner: 0
+    dangerLevel: 1
+    position: {x: -1.5, y: 1}
+  - nodeId: relay
+    displayName: Enemy Relay
+    terrain: 2
+    owner: 2
+    dangerLevel: 3
+    position: {x: 2, y: 1.5}
+  - nodeId: coast
+    displayName: Tide Channel
+    terrain: 2
+    owner: 0
+    dangerLevel: 1
+    position: {x: 1, y: -2.5}
+  - nodeId: extract
+    displayName: Extraction Point
+    terrain: 0
+    owner: 1
+    dangerLevel: 0
+    position: {x: 4.5, y: -1}
+  routes:
+  - fromNodeId: base
+    toNodeId: ridge
+    routeType: 0
+  - fromNodeId: ridge
+    toNodeId: relay
+    routeType: 0
+  - fromNodeId: base
+    toNodeId: coast
+    routeType: 0
+  - fromNodeId: coast
+    toNodeId: relay
+    routeType: 0
+  - fromNodeId: relay
+    toNodeId: extract
+    routeType: 0
+  - fromNodeId: coast
+    toNodeId: extract
+    routeType: 0

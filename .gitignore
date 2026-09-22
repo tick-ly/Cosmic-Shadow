@@ -28,6 +28,8 @@ Recordings/
 
 # Unity generated files
 *.csproj
+!tools/grayport-checks/GrayportChecks.csproj
+!tools/unity-compile-check/*.csproj
 *.unityproj
 *.slnx
 *.pidb
@@ -53,3 +55,10 @@ UnityProject/Setup Guide In-Editor Tutorial/
 .vs/
 .vscode/
 .idea/
+
+# Local installation helpers and machine-specific validation state
+/tools/download_unity_editor.py
+/docs/grayport/work-state.json
+/docs/grayport/unity-install-result.json
+/docs/grayport/unity-installer-signature.json
+/docs/grayport/unity-stages.json

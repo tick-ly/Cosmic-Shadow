@@ -1,0 +1,10245 @@
+{
+  "title": "GRAYPORT / BLACKOUT",
+  "palette": {
+    "water": "#163e50",
+    "wave": "#366b78",
+    "earth": "#263e46",
+    "concrete": "#768487",
+    "road": "#35474e",
+    "line": "#d4bd85",
+    "steel": "#314950",
+    "roof": "#496471",
+    "wall": "#a3adb0",
+    "orange": "#c17c4b",
+    "teal": "#3d898b",
+    "blue": "#47778c",
+    "red": "#a64c43",
+    "dark": "#20303b",
+    "glass": "#69c8d0",
+    "light": "#ffe0a0",
+    "green": "#68d9ae",
+    "white": "#d9e8dd",
+    "rock": "#506367",
+    "sand": "#9e9b83",
+    "warning": "#f1af54"
+  },
+  "objects": [
+    {
+      "name": "Harbor water",
+      "position": [
+        0,
+        -1.35,
+        0
+      ],
+      "scale": [
+        160,
+        0.3,
+        125
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "water",
+      "solid": false
+    },
+    {
+      "name": "Port foundation",
+      "position": [
+        1,
+        -1.2,
+        2
+      ],
+      "scale": [
+        84,
+        4.4,
+        66
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "earth",
+      "solid": false
+    },
+    {
+      "name": "Quay pavement",
+      "position": [
+        1,
+        0.78,
+        2
+      ],
+      "scale": [
+        84,
+        0.44,
+        66
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": false
+    },
+    {
+      "name": "Landing beach",
+      "position": [
+        -34,
+        -0.08,
+        -31
+      ],
+      "scale": [
+        17,
+        0.7,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "sand",
+      "solid": false
+    },
+    {
+      "name": "Landing ramp",
+      "position": [
+        -34,
+        0.4,
+        -27
+      ],
+      "scale": [
+        5,
+        0.3,
+        9
+      ],
+      "rotation": [
+        -8,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": false
+    },
+    {
+      "name": "Dock deck",
+      "position": [
+        48,
+        0.7,
+        8
+      ],
+      "scale": [
+        24,
+        0.6,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        39,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        39,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        39,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        39,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        43,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        43,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        43,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        43,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        47,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        47,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        47,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        47,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        51,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        51,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        51,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        51,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        55,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        55,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        55,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        55,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        59,
+        -1.7,
+        4
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        59,
+        1.28,
+        4
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Pier pile",
+      "position": [
+        59,
+        -1.7,
+        12
+      ],
+      "scale": [
+        0.7,
+        4.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Pier bollard",
+      "position": [
+        59,
+        1.28,
+        12
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "Relay raised platform",
+      "position": [
+        17,
+        2,
+        8
+      ],
+      "scale": [
+        12,
+        4,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": false
+    },
+    {
+      "name": "Road entry to fork",
+      "position": [
+        -29.0,
+        1.02,
+        -20.0
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        12.806248474865697
+      ],
+      "rotation": [
+        -0.0,
+        51.34019174590991,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -31.306002607421547,
+        1.135,
+        -21.84480208593724
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999987
+      ],
+      "rotation": [
+        -0.0,
+        51.34019174590995,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -28.963396179092456,
+        1.135,
+        -19.970716943273963
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000009
+      ],
+      "rotation": [
+        -0.0,
+        51.34019174590977,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -26.620789750763365,
+        1.135,
+        -18.096631800610687
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999987
+      ],
+      "rotation": [
+        -0.0,
+        51.34019174590995,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road fork to gate",
+      "position": [
+        -18.0,
+        1.02,
+        -16.0
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        12.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -20.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -17.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -14.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road gate to checkpoint",
+      "position": [
+        -4.0,
+        1.02,
+        -16.0
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        16.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -8.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000004
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -5.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000004
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        -2.55,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000004
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        0.4500000000000002,
+        1.135,
+        -16.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000004
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road checkpoint to ramp",
+      "position": [
+        10.5,
+        1.02,
+        -13.5
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        13.92838827718412
+      ],
+      "rotation": [
+        -0.0,
+        68.96248897457819,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        7.220042341400555,
+        1.135,
+        -14.761522176384402
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999989
+      ],
+      "rotation": [
+        -0.0,
+        68.96248897457815,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        10.020079160009734,
+        1.135,
+        -13.684584938457794
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999989
+      ],
+      "rotation": [
+        -0.0,
+        68.96248897457815,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        12.820115978618912,
+        1.135,
+        -12.607647700531187
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000006
+      ],
+      "rotation": [
+        -0.0,
+        68.96248897457819,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road ramp to relay_front",
+      "position": [
+        17.0,
+        2.5199999999999996,
+        -4.5
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        13.341664064126334
+      ],
+      "rotation": [
+        -12.994616791916503,
+        0.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        17.0,
+        1.9107652981107166,
+        -7.638350374853562
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9
+      ],
+      "rotation": [
+        -12.994616791916494,
+        0.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        17.0,
+        2.585343818206992,
+        -4.7151767877697015
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9
+      ],
+      "rotation": [
+        -12.994616791916508,
+        0.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        17.0,
+        3.2599223383032667,
+        -1.7920032006858424
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999991
+      ],
+      "rotation": [
+        -12.99461679191652,
+        0.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road relay_front to relay",
+      "position": [
+        17.0,
+        4.02,
+        5.0
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        6.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        17.0,
+        4.135,
+        5.45
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000004
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road fork to containers",
+      "position": [
+        -25.0,
+        1.02,
+        -9.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        14.142135623730951
+      ],
+      "rotation": [
+        -0.0,
+        -8.13010235415598,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road containers to warehouse",
+      "position": [
+        -24.5,
+        1.02,
+        7.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        18.24828759089466
+      ],
+      "rotation": [
+        -0.0,
+        9.462322208025617,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road warehouse to intel",
+      "position": [
+        -15.5,
+        1.02,
+        16.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        15.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road intel to backgate",
+      "position": [
+        0.0,
+        1.02,
+        16.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        16.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road backgate to relay_west",
+      "position": [
+        9.5,
+        2.5199999999999996,
+        14.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        5.830951894845301
+      ],
+      "rotation": [
+        -30.963756532073518,
+        143.13010235415598,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road relay_west to relay",
+      "position": [
+        14.0,
+        4.02,
+        10.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        7.211102550927978
+      ],
+      "rotation": [
+        -0.0,
+        123.69006752597979,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road entry to shore",
+      "position": [
+        -35.0,
+        1.02,
+        -17.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        14.142135623730951
+      ],
+      "rotation": [
+        -0.0,
+        -8.13010235415598,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road shore to coast",
+      "position": [
+        -36.0,
+        1.02,
+        1.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        22.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road coast to maintenance",
+      "position": [
+        -33.0,
+        1.02,
+        19.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        15.231546211727817
+      ],
+      "rotation": [
+        -0.0,
+        23.19859051364819,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road maintenance to power",
+      "position": [
+        -22.0,
+        1.02,
+        26.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        16.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road power to rear",
+      "position": [
+        -3.0,
+        1.02,
+        26.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        22.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road rear to backgate",
+      "position": [
+        8.0,
+        1.02,
+        21.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        10.0
+      ],
+      "rotation": [
+        -0.0,
+        180.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road relay to relay_east",
+      "position": [
+        20.0,
+        4.02,
+        8.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        6.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        20.45,
+        4.135,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road relay_east to dock",
+      "position": [
+        29.0,
+        2.5199999999999996,
+        8.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        12.36931687685298
+      ],
+      "rotation": [
+        14.036243467926477,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        26.346991625501396,
+        3.298252093624651,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999987
+      ],
+      "rotation": [
+        14.036243467926507,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        29.257419125937393,
+        2.5706452185156525,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999987
+      ],
+      "rotation": [
+        14.036243467926507,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        32.16784662637339,
+        1.8430383434066528,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000056
+      ],
+      "rotation": [
+        14.036243467926397,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road dock to extract",
+      "position": [
+        43.5,
+        1.02,
+        8.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        38.45,
+        1.135,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        41.45,
+        1.135,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        44.45,
+        1.135,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999986
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        47.45,
+        1.135,
+        8.0
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000057
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road checkpoint to dock",
+      "position": [
+        19.5,
+        1.02,
+        -4.0
+      ],
+      "scale": [
+        3.8,
+        0.18,
+        39.20459156782532
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272534,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        6.727996791268001,
+        1.135,
+        -13.888002484179612
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999998
+      ],
+      "rotation": [
+        -0.0,
+        52.2531946127254,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        9.100167914109742,
+        1.135,
+        -12.051482905205361
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999998
+      ],
+      "rotation": [
+        -0.0,
+        52.2531946127254,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        11.472339036951482,
+        1.135,
+        -10.21496332623111
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000009
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272531,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        13.844510159793222,
+        1.135,
+        -8.37844374725686
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000009
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272531,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        16.216681282634962,
+        1.135,
+        -6.54192416828261
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999996
+      ],
+      "rotation": [
+        -0.0,
+        52.253194612725245,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        18.5888524054767,
+        1.135,
+        -4.705404589308361
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.9000000000000009
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272531,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        20.961023528318442,
+        1.135,
+        -2.868885010334111
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999998
+      ],
+      "rotation": [
+        -0.0,
+        52.2531946127254,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        23.333194651160184,
+        1.135,
+        -1.0323654313598603
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999998
+      ],
+      "rotation": [
+        -0.0,
+        52.2531946127254,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        25.705365774001923,
+        1.135,
+        0.8041541476143905
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.899999999999997
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272527,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        28.07753689684366,
+        1.135,
+        2.6406737265886413
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.8999999999999998
+      ],
+      "rotation": [
+        -0.0,
+        52.2531946127254,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        30.4497080196854,
+        1.135,
+        4.477193305562892
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.899999999999997
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272527,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road paint",
+      "position": [
+        32.82187914252714,
+        1.135,
+        6.313712884537139
+      ],
+      "scale": [
+        0.1,
+        0.025,
+        0.899999999999997
+      ],
+      "rotation": [
+        -0.0,
+        52.25319461272527,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Road coast to warehouse",
+      "position": [
+        -29.5,
+        1.02,
+        14.0
+      ],
+      "scale": [
+        2.6,
+        0.18,
+        13.601470508735444
+      ],
+      "rotation": [
+        -0.0,
+        72.89727103094764,
+        0
+      ],
+      "material": "road",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -40,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -40,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -37,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -37,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -34,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -34,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -31,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -31,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -28,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -28,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -25,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -25,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -22,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -22,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -19,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -19,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -16,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -16,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -13,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -13,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -10,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -10,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -7,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -7,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -4,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -4,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -1,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        -1,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        2,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        2,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        5,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        5,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        8,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        8,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        11,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        11,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        14,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        14,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        17,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        17,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        20,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        20,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        23,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        23,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        26,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        26,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        29,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        29,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        32,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        32,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        35,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        35,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        38,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        38,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        41,
+        -1,
+        -31.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay face buttress",
+      "position": [
+        41,
+        -1,
+        35.1
+      ],
+      "scale": [
+        0.4,
+        4,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -74,
+        -1.18,
+        -54
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -55,
+        -1.18,
+        -23
+      ],
+      "scale": [
+        3,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -17,
+        -1.18,
+        39
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        2,
+        -1.18,
+        -34
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        59,
+        -1.18,
+        -45
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -67,
+        -1.18,
+        -14
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -48,
+        -1.18,
+        17
+      ],
+      "scale": [
+        3,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -29,
+        -1.18,
+        48
+      ],
+      "scale": [
+        4,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        47,
+        -1.18,
+        -36
+      ],
+      "scale": [
+        4,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        66,
+        -1.18,
+        -5
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -60,
+        -1.18,
+        26
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -41,
+        -1.18,
+        -47
+      ],
+      "scale": [
+        3,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        16,
+        -1.18,
+        46
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -72,
+        -1.18,
+        35
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -53,
+        -1.18,
+        -38
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        4,
+        -1.18,
+        -49
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        61,
+        -1.18,
+        44
+      ],
+      "scale": [
+        4,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -65,
+        -1.18,
+        -29
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -46,
+        -1.18,
+        2
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -8,
+        -1.18,
+        -40
+      ],
+      "scale": [
+        4,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        49,
+        -1.18,
+        -51
+      ],
+      "scale": [
+        3,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        68,
+        -1.18,
+        -20
+      ],
+      "scale": [
+        4,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -58,
+        -1.18,
+        11
+      ],
+      "scale": [
+        5,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        -39,
+        -1.18,
+        42
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Water glint",
+      "position": [
+        37,
+        -1.18,
+        -42
+      ],
+      "scale": [
+        2,
+        0.025,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wave",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -32,
+        2.25,
+        -4
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -33.73,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -30.27,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -32.85,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -31.15,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -20,
+        2.25,
+        -3
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -21.73,
+        2.3,
+        0
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -18.27,
+        2.3,
+        0
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -20.85,
+        2.2,
+        -6.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -19.15,
+        2.2,
+        -6.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -15,
+        2.25,
+        5
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "blue",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -15.85,
+        2.2,
+        1.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -14.15,
+        2.2,
+        1.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -30,
+        2.25,
+        8
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "blue",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        9
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        9
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        10
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        10
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -31.73,
+        2.3,
+        11
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -28.27,
+        2.3,
+        11
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -30.85,
+        2.2,
+        4.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -29.15,
+        2.2,
+        4.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -19,
+        2.25,
+        8
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        9
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        9
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        10
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        10
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -20.73,
+        2.3,
+        11
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -17.27,
+        2.3,
+        11
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -19.85,
+        2.2,
+        4.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -18.15,
+        2.2,
+        4.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -8,
+        2.25,
+        -4
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -9.73,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -6.27,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -8.85,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -7.15,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -2,
+        2.25,
+        -4
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -3.73,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -0.27,
+        2.3,
+        -1
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -2.85,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -1.15,
+        2.2,
+        -7.54
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Cargo container",
+      "position": [
+        -15,
+        4.75,
+        5
+      ],
+      "scale": [
+        3.4,
+        2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "red",
+      "solid": true
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        2
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        3
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        4
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        5
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        6
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        7
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -16.73,
+        4.8,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container rib",
+      "position": [
+        -13.27,
+        4.8,
+        8
+      ],
+      "scale": [
+        0.08,
+        2.35,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -15.85,
+        4.7,
+        1.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Container door lock",
+      "position": [
+        -14.15,
+        4.7,
+        1.46
+      ],
+      "scale": [
+        0.08,
+        2.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A",
+      "position": [
+        -10,
+        4.0,
+        8
+      ],
+      "scale": [
+        11,
+        6,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wall",
+      "solid": true
+    },
+    {
+      "name": "Warehouse A roof",
+      "position": [
+        -10,
+        7.25,
+        8
+      ],
+      "scale": [
+        11.5,
+        0.5,
+        8.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "roof",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A window",
+      "position": [
+        -13.52,
+        5.199999999999999,
+        3.965
+      ],
+      "scale": [
+        1.98,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A window",
+      "position": [
+        -10,
+        5.199999999999999,
+        3.965
+      ],
+      "scale": [
+        1.98,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A window",
+      "position": [
+        -6.48,
+        5.199999999999999,
+        3.965
+      ],
+      "scale": [
+        1.98,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A door",
+      "position": [
+        -10,
+        2.1,
+        3.94
+      ],
+      "scale": [
+        1.8,
+        2.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Warehouse A vent",
+      "position": [
+        -7.58,
+        7.7,
+        8
+      ],
+      "scale": [
+        1.8,
+        0.6,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B",
+      "position": [
+        -26,
+        3.0,
+        20.5
+      ],
+      "scale": [
+        7,
+        4,
+        4.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wall",
+      "solid": true
+    },
+    {
+      "name": "Warehouse B roof",
+      "position": [
+        -26,
+        5.25,
+        20.5
+      ],
+      "scale": [
+        7.5,
+        0.5,
+        5.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "roof",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B window",
+      "position": [
+        -28.240000000000002,
+        3.8,
+        18.215
+      ],
+      "scale": [
+        1.26,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B window",
+      "position": [
+        -26,
+        3.8,
+        18.215
+      ],
+      "scale": [
+        1.26,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B window",
+      "position": [
+        -23.759999999999998,
+        3.8,
+        18.215
+      ],
+      "scale": [
+        1.26,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B door",
+      "position": [
+        -26,
+        2.1,
+        18.19
+      ],
+      "scale": [
+        1.8,
+        2.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Warehouse B vent",
+      "position": [
+        -24.46,
+        5.7,
+        20.5
+      ],
+      "scale": [
+        1.8,
+        0.6,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop",
+      "position": [
+        -23,
+        2.75,
+        31
+      ],
+      "scale": [
+        10,
+        3.5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": true
+    },
+    {
+      "name": "Maintenance workshop roof",
+      "position": [
+        -23,
+        4.75,
+        31
+      ],
+      "scale": [
+        10.5,
+        0.5,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "roof",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop window",
+      "position": [
+        -26.2,
+        3.4499999999999997,
+        28.465
+      ],
+      "scale": [
+        1.7999999999999998,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop window",
+      "position": [
+        -23,
+        3.4499999999999997,
+        28.465
+      ],
+      "scale": [
+        1.7999999999999998,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop window",
+      "position": [
+        -19.8,
+        3.4499999999999997,
+        28.465
+      ],
+      "scale": [
+        1.7999999999999998,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop door",
+      "position": [
+        -23,
+        2.1,
+        28.44
+      ],
+      "scale": [
+        1.8,
+        2.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Maintenance workshop vent",
+      "position": [
+        -20.8,
+        5.2,
+        31
+      ],
+      "scale": [
+        1.8,
+        0.6,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Guard house",
+      "position": [
+        -4,
+        2.5,
+        -22
+      ],
+      "scale": [
+        6,
+        3,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wall",
+      "solid": true
+    },
+    {
+      "name": "Guard house roof",
+      "position": [
+        -4,
+        4.25,
+        -22
+      ],
+      "scale": [
+        6.5,
+        0.5,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "roof",
+      "solid": false
+    },
+    {
+      "name": "Guard house window",
+      "position": [
+        -5.92,
+        3.0999999999999996,
+        -24.535
+      ],
+      "scale": [
+        1.08,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Guard house window",
+      "position": [
+        -4,
+        3.0999999999999996,
+        -24.535
+      ],
+      "scale": [
+        1.08,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Guard house window",
+      "position": [
+        -2.08,
+        3.0999999999999996,
+        -24.535
+      ],
+      "scale": [
+        1.08,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Guard house door",
+      "position": [
+        -4,
+        2.1,
+        -24.56
+      ],
+      "scale": [
+        1.8,
+        2.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Guard house vent",
+      "position": [
+        -2.6799999999999997,
+        4.7,
+        -22
+      ],
+      "scale": [
+        1.8,
+        0.6,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Relay control",
+      "position": [
+        20,
+        3.5,
+        11
+      ],
+      "scale": [
+        4,
+        5,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "wall",
+      "solid": true
+    },
+    {
+      "name": "Relay control roof",
+      "position": [
+        20,
+        6.25,
+        11
+      ],
+      "scale": [
+        4.5,
+        0.5,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "roof",
+      "solid": false
+    },
+    {
+      "name": "Relay control window",
+      "position": [
+        18.72,
+        4.5,
+        9.465
+      ],
+      "scale": [
+        0.72,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Relay control window",
+      "position": [
+        20,
+        4.5,
+        9.465
+      ],
+      "scale": [
+        0.72,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Relay control window",
+      "position": [
+        21.28,
+        4.5,
+        9.465
+      ],
+      "scale": [
+        0.72,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Relay control door",
+      "position": [
+        20,
+        2.1,
+        9.44
+      ],
+      "scale": [
+        1.8,
+        2.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Relay control vent",
+      "position": [
+        20.88,
+        6.7,
+        11
+      ],
+      "scale": [
+        1.8,
+        0.6,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower leg",
+      "position": [
+        19.78,
+        13.5,
+        10.585
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        19.09980366391236
+      ],
+      "rotation": [
+        -84.14016057459857,
+        53.13010235415596,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower leg",
+      "position": [
+        19.78,
+        13.5,
+        12.415
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        19.09980366391236
+      ],
+      "rotation": [
+        -84.14016057459857,
+        126.86989764584403,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower leg",
+      "position": [
+        22.22,
+        13.5,
+        10.585
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        19.09980366391236
+      ],
+      "rotation": [
+        -84.14016057459857,
+        -53.13010235415596,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower leg",
+      "position": [
+        22.22,
+        13.5,
+        12.415
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        19.09980366391236
+      ],
+      "rotation": [
+        -84.14016057459857,
+        -126.86989764584403,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower cross brace",
+      "position": [
+        21.0,
+        9.5,
+        11.5
+      ],
+      "scale": [
+        0.12,
+        0.12,
+        5.830951894845301
+      ],
+      "rotation": [
+        -30.96375653207352,
+        53.13010235415598,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio platform",
+      "position": [
+        21,
+        8,
+        11.5
+      ],
+      "scale": [
+        4.4,
+        0.16,
+        3.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower cross brace",
+      "position": [
+        21.0,
+        13.5,
+        11.5
+      ],
+      "scale": [
+        0.12,
+        0.12,
+        5.830951894845301
+      ],
+      "rotation": [
+        -30.96375653207352,
+        53.13010235415598,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio platform",
+      "position": [
+        21,
+        12,
+        11.5
+      ],
+      "scale": [
+        4.4,
+        0.16,
+        3.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower cross brace",
+      "position": [
+        21.0,
+        17.5,
+        11.5
+      ],
+      "scale": [
+        0.12,
+        0.12,
+        5.830951894845301
+      ],
+      "rotation": [
+        -30.96375653207352,
+        53.13010235415598,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio platform",
+      "position": [
+        21,
+        16,
+        11.5
+      ],
+      "scale": [
+        4.4,
+        0.16,
+        3.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio tower cross brace",
+      "position": [
+        21.0,
+        21.5,
+        11.5
+      ],
+      "scale": [
+        0.12,
+        0.12,
+        5.830951894845301
+      ],
+      "rotation": [
+        -30.96375653207352,
+        53.13010235415598,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Radio platform",
+      "position": [
+        21,
+        20,
+        11.5
+      ],
+      "scale": [
+        4.4,
+        0.16,
+        3.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Antenna spine",
+      "position": [
+        21,
+        25,
+        11.5
+      ],
+      "scale": [
+        0.14,
+        5,
+        0.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Antenna signal lamp",
+      "position": [
+        21,
+        27.7,
+        11.5
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "red",
+      "solid": false
+    },
+    {
+      "name": "Relay console",
+      "position": [
+        17,
+        4.6,
+        9
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": false
+    },
+    {
+      "name": "Relay console display",
+      "position": [
+        17,
+        5,
+        8.55
+      ],
+      "scale": [
+        0.9,
+        0.4,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Crane leg",
+      "position": [
+        32.0,
+        8.0,
+        18.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        14.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane leg",
+      "position": [
+        32.0,
+        8.0,
+        24.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        14.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane leg",
+      "position": [
+        39.0,
+        8.0,
+        18.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        14.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane leg",
+      "position": [
+        39.0,
+        8.0,
+        24.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        14.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane top beam",
+      "position": [
+        41.0,
+        15.0,
+        18.0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        22.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        32.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        35.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        38.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        41.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        44.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        47.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        50.0,
+        16.0,
+        18.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane top beam",
+      "position": [
+        41.0,
+        15.0,
+        24.0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        22.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        32.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        35.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        38.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        41.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        44.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        47.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane truss",
+      "position": [
+        50.0,
+        16.0,
+        24.0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        2.8284271247461903
+      ],
+      "rotation": [
+        -45.0,
+        90.0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Crane cross beam",
+      "position": [
+        32.0,
+        15.0,
+        21.0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        6.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane cross beam",
+      "position": [
+        48.0,
+        15.0,
+        21.0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        6.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        0
+      ],
+      "material": "orange",
+      "solid": false
+    },
+    {
+      "name": "Crane cabin",
+      "position": [
+        38,
+        14,
+        21
+      ],
+      "scale": [
+        3,
+        2.4,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": false
+    },
+    {
+      "name": "Crane cabin glass",
+      "position": [
+        38,
+        14.3,
+        19.45
+      ],
+      "scale": [
+        2.6,
+        1.2,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Crane cable",
+      "position": [
+        47.0,
+        9.25,
+        21.0
+      ],
+      "scale": [
+        0.08,
+        0.08,
+        11.5
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Crane hook",
+      "position": [
+        47,
+        3.2,
+        21
+      ],
+      "scale": [
+        1,
+        0.7,
+        0.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "warning",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        -18,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        -16.1,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        -14,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        -12.1,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        -10,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        -8.1,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        -6,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        -4.1,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        -2,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        -0.10000000000000009,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        2,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        3.9,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        6,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        7.9,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence post",
+      "position": [
+        10,
+        2,
+        -28
+      ],
+      "scale": [
+        0.15,
+        2,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "South fence rail",
+      "position": [
+        11.9,
+        2.5,
+        -28
+      ],
+      "scale": [
+        3.8,
+        0.12,
+        0.12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        -28,
+        4.0,
+        -18
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        -27.4,
+        7,
+        -18
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        -26.8,
+        6.95,
+        -18
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        -10,
+        4.0,
+        -19
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        -9.4,
+        7,
+        -19
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        -8.8,
+        6.95,
+        -19
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        3,
+        4.0,
+        -19
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        3.6,
+        7,
+        -19
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        4.2,
+        6.95,
+        -19
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        11,
+        4.0,
+        -15
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        11.6,
+        7,
+        -15
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        12.2,
+        6.95,
+        -15
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        9,
+        4.0,
+        20
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        9.6,
+        7,
+        20
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        10.2,
+        6.95,
+        20
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        -33,
+        4.0,
+        23
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        -32.4,
+        7,
+        23
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        -31.8,
+        6.95,
+        23
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        30,
+        4.0,
+        5
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        30.6,
+        7,
+        5
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        31.2,
+        6.95,
+        5
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp mast",
+      "position": [
+        40,
+        4.0,
+        12
+      ],
+      "scale": [
+        0.16,
+        6,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp arm",
+      "position": [
+        40.6,
+        7,
+        12
+      ],
+      "scale": [
+        1.4,
+        0.15,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Quay lamp lens",
+      "position": [
+        41.2,
+        6.95,
+        12
+      ],
+      "scale": [
+        0.65,
+        0.12,
+        0.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Concrete cover",
+      "position": [
+        -22,
+        1.65,
+        1
+      ],
+      "scale": [
+        3,
+        1.3,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": true
+    },
+    {
+      "name": "Concrete cover",
+      "position": [
+        -20,
+        1.65,
+        12
+      ],
+      "scale": [
+        3,
+        1.3,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": true
+    },
+    {
+      "name": "Concrete cover",
+      "position": [
+        -3,
+        1.65,
+        18
+      ],
+      "scale": [
+        3,
+        1.3,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": true
+    },
+    {
+      "name": "Concrete cover",
+      "position": [
+        3,
+        1.65,
+        -12
+      ],
+      "scale": [
+        3,
+        1.3,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": true
+    },
+    {
+      "name": "Concrete cover",
+      "position": [
+        30,
+        1.65,
+        11
+      ],
+      "scale": [
+        3,
+        1.3,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "concrete",
+      "solid": true
+    },
+    {
+      "name": "Utility terminal",
+      "position": [
+        -8,
+        1.8,
+        17
+      ],
+      "scale": [
+        1.2,
+        1.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": false
+    },
+    {
+      "name": "Terminal screen",
+      "position": [
+        -8,
+        2.1,
+        16.62
+      ],
+      "scale": [
+        0.8,
+        0.55,
+        0.06
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Utility terminal",
+      "position": [
+        -14,
+        1.8,
+        27
+      ],
+      "scale": [
+        1.2,
+        1.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": false
+    },
+    {
+      "name": "Terminal screen",
+      "position": [
+        -14,
+        2.1,
+        26.62
+      ],
+      "scale": [
+        0.8,
+        0.55,
+        0.06
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Substation transformer",
+      "position": [
+        -5,
+        2.5,
+        31
+      ],
+      "scale": [
+        1.8,
+        3,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": true
+    },
+    {
+      "name": "Transformer cap",
+      "position": [
+        -5,
+        4.3,
+        31
+      ],
+      "scale": [
+        0.7,
+        0.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Substation transformer",
+      "position": [
+        -2,
+        2.5,
+        31
+      ],
+      "scale": [
+        1.8,
+        3,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": true
+    },
+    {
+      "name": "Transformer cap",
+      "position": [
+        -2,
+        4.3,
+        31
+      ],
+      "scale": [
+        0.7,
+        0.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Substation transformer",
+      "position": [
+        1,
+        2.5,
+        31
+      ],
+      "scale": [
+        1.8,
+        3,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": true
+    },
+    {
+      "name": "Transformer cap",
+      "position": [
+        1,
+        4.3,
+        31
+      ],
+      "scale": [
+        0.7,
+        0.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Substation transformer",
+      "position": [
+        4,
+        2.5,
+        31
+      ],
+      "scale": [
+        1.8,
+        3,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": true
+    },
+    {
+      "name": "Transformer cap",
+      "position": [
+        4,
+        4.3,
+        31
+      ],
+      "scale": [
+        0.7,
+        0.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Substation transformer",
+      "position": [
+        7,
+        2.5,
+        31
+      ],
+      "scale": [
+        1.8,
+        3,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": true
+    },
+    {
+      "name": "Transformer cap",
+      "position": [
+        7,
+        4.3,
+        31
+      ],
+      "scale": [
+        0.7,
+        0.6,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "light",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        15,
+        1.03,
+        -25
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        15,
+        1.03,
+        -20
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        21,
+        1.03,
+        -25
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        21,
+        1.03,
+        -20
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        27,
+        1.03,
+        -25
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        27,
+        1.03,
+        -20
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        33,
+        1.03,
+        -25
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Parking bay stripe",
+      "position": [
+        33,
+        1.03,
+        -20
+      ],
+      "scale": [
+        4,
+        0.035,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "line",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        17,
+        1.7,
+        -24
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        16.35,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        17.65,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        23,
+        1.7,
+        -24
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        22.35,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        23.65,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        29,
+        1.7,
+        -24
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        28.35,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        29.65,
+        2.43,
+        -24
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        34,
+        1.7,
+        -16
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        33.35,
+        2.43,
+        -16
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        34.65,
+        2.43,
+        -16
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        33,
+        1.7,
+        -4
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        32.35,
+        2.43,
+        -4
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        33.65,
+        2.43,
+        -4
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Dock freight crate",
+      "position": [
+        38,
+        1.7,
+        -4
+      ],
+      "scale": [
+        2,
+        1.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "orange",
+      "solid": true
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        37.35,
+        2.43,
+        -4
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Crate strap",
+      "position": [
+        38.65,
+        2.43,
+        -4
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel",
+      "solid": false
+    },
+    {
+      "name": "Extraction boat hull",
+      "position": [
+        52,
+        -0.1,
+        17
+      ],
+      "scale": [
+        4.8,
+        1.6,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Extraction boat deck",
+      "position": [
+        52,
+        0.8,
+        17
+      ],
+      "scale": [
+        4.2,
+        0.3,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "white",
+      "solid": false
+    },
+    {
+      "name": "Extraction boat cabin",
+      "position": [
+        52,
+        1.9,
+        18
+      ],
+      "scale": [
+        3,
+        2,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "teal",
+      "solid": false
+    },
+    {
+      "name": "Boat windshield",
+      "position": [
+        52,
+        2.2,
+        16.45
+      ],
+      "scale": [
+        2.5,
+        0.8,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "glass",
+      "solid": false
+    },
+    {
+      "name": "Extraction light",
+      "position": [
+        50,
+        1.1,
+        8
+      ],
+      "scale": [
+        0.35,
+        0.2,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "green",
+      "solid": false
+    },
+    {
+      "name": "Extraction light",
+      "position": [
+        54,
+        1.1,
+        8
+      ],
+      "scale": [
+        0.35,
+        0.2,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "green",
+      "solid": false
+    },
+    {
+      "name": "Landing boat hull",
+      "position": [
+        -36,
+        -0.1,
+        -38
+      ],
+      "scale": [
+        4,
+        1.2,
+        7
+      ],
+      "rotation": [
+        0,
+        20,
+        0
+      ],
+      "material": "dark",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -43,
+        -0.3,
+        -35
+      ],
+      "scale": [
+        1.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        0,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -36,
+        -0.3,
+        -36
+      ],
+      "scale": [
+        2.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        31,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -29,
+        -0.3,
+        -37
+      ],
+      "scale": [
+        3.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        62,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -40,
+        -0.3,
+        -35
+      ],
+      "scale": [
+        1.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        93,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -33,
+        -0.3,
+        -36
+      ],
+      "scale": [
+        2.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        124,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -26,
+        -0.3,
+        -37
+      ],
+      "scale": [
+        3.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        155,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -37,
+        -0.3,
+        -35
+      ],
+      "scale": [
+        1.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        186,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -30,
+        -0.3,
+        -36
+      ],
+      "scale": [
+        2.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        217,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -41,
+        -0.3,
+        -37
+      ],
+      "scale": [
+        3.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        248,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -34,
+        -0.3,
+        -35
+      ],
+      "scale": [
+        1.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        279,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -27,
+        -0.3,
+        -36
+      ],
+      "scale": [
+        2.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        310,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    },
+    {
+      "name": "Shore rock",
+      "position": [
+        -38,
+        -0.3,
+        -37
+      ],
+      "scale": [
+        3.6,
+        1.5,
+        1.8
+      ],
+      "rotation": [
+        15,
+        341,
+        12
+      ],
+      "material": "rock",
+      "solid": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "entry",
+      "label": "01 / LANDING",
+      "position": [
+        -34,
+        1.02,
+        -24
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "fork",
+      "label": "ACCESS",
+      "position": [
+        -24,
+        1.02,
+        -16
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "gate",
+      "label": "FRONT GATE",
+      "position": [
+        -12,
+        1.02,
+        -16
+      ],
+      "danger": 1,
+      "exposure": 1,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "checkpoint",
+      "label": "CHECKPOINT",
+      "position": [
+        4,
+        1.02,
+        -16
+      ],
+      "danger": 2,
+      "exposure": 1,
+      "cover": 0,
+      "poweredGuard": true,
+      "interaction": 0
+    },
+    {
+      "id": "ramp",
+      "label": "RELAY APPROACH",
+      "position": [
+        17,
+        1.02,
+        -11
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "relay_front",
+      "label": "SOUTH RAMP",
+      "position": [
+        17,
+        4.02,
+        2
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "relay",
+      "label": "05 / RELAY",
+      "position": [
+        17,
+        4.02,
+        8
+      ],
+      "danger": 2,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "relay_west",
+      "label": "WEST RAMP",
+      "position": [
+        11,
+        4.02,
+        12
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "relay_east",
+      "label": "EAST RAMP",
+      "position": [
+        23,
+        4.02,
+        8
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "containers",
+      "label": "02 / CONTAINER YARD",
+      "position": [
+        -26,
+        1.02,
+        -2
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 1,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "warehouse",
+      "label": "WAREHOUSE",
+      "position": [
+        -23,
+        1.02,
+        16
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 1,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "intel",
+      "label": "RECON TERMINAL",
+      "position": [
+        -8,
+        1.02,
+        16
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 1,
+      "poweredGuard": false,
+      "interaction": 1
+    },
+    {
+      "id": "backgate",
+      "label": "REAR ACCESS",
+      "position": [
+        8,
+        1.02,
+        16
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 1,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "shore",
+      "label": "COASTAL WALK",
+      "position": [
+        -36,
+        1.02,
+        -10
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "coast",
+      "label": "SEAWALL",
+      "position": [
+        -36,
+        1.02,
+        12
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "maintenance",
+      "label": "04 / MAINTENANCE",
+      "position": [
+        -30,
+        1.02,
+        26
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "power",
+      "label": "POWER CONTROL",
+      "position": [
+        -14,
+        1.02,
+        26
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 2
+    },
+    {
+      "id": "rear",
+      "label": "SERVICE ACCESS",
+      "position": [
+        8,
+        1.02,
+        26
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    },
+    {
+      "id": "dock",
+      "label": "06 / DOCK",
+      "position": [
+        35,
+        1.02,
+        8
+      ],
+      "danger": 0,
+      "exposure": 1,
+      "cover": 0,
+      "poweredGuard": true,
+      "interaction": 0
+    },
+    {
+      "id": "extract",
+      "label": "EXTRACTION",
+      "position": [
+        52,
+        1.02,
+        8
+      ],
+      "danger": 0,
+      "exposure": 0,
+      "cover": 0,
+      "poweredGuard": false,
+      "interaction": 0
+    }
+  ],
+  "routes": [
+    {
+      "a": "entry",
+      "b": "fork",
+      "kind": "direct"
+    },
+    {
+      "a": "fork",
+      "b": "gate",
+      "kind": "direct"
+    },
+    {
+      "a": "gate",
+      "b": "checkpoint",
+      "kind": "direct"
+    },
+    {
+      "a": "checkpoint",
+      "b": "ramp",
+      "kind": "direct"
+    },
+    {
+      "a": "ramp",
+      "b": "relay_front",
+      "kind": "direct"
+    },
+    {
+      "a": "relay_front",
+      "b": "relay",
+      "kind": "direct"
+    },
+    {
+      "a": "fork",
+      "b": "containers",
+      "kind": "cover"
+    },
+    {
+      "a": "containers",
+      "b": "warehouse",
+      "kind": "cover"
+    },
+    {
+      "a": "warehouse",
+      "b": "intel",
+      "kind": "cover"
+    },
+    {
+      "a": "intel",
+      "b": "backgate",
+      "kind": "cover"
+    },
+    {
+      "a": "backgate",
+      "b": "relay_west",
+      "kind": "cover"
+    },
+    {
+      "a": "relay_west",
+      "b": "relay",
+      "kind": "cover"
+    },
+    {
+      "a": "entry",
+      "b": "shore",
+      "kind": "service"
+    },
+    {
+      "a": "shore",
+      "b": "coast",
+      "kind": "service"
+    },
+    {
+      "a": "coast",
+      "b": "maintenance",
+      "kind": "service"
+    },
+    {
+      "a": "maintenance",
+      "b": "power",
+      "kind": "service"
+    },
+    {
+      "a": "power",
+      "b": "rear",
+      "kind": "service"
+    },
+    {
+      "a": "rear",
+      "b": "backgate",
+      "kind": "service"
+    },
+    {
+      "a": "relay",
+      "b": "relay_east",
+      "kind": "extract"
+    },
+    {
+      "a": "relay_east",
+      "b": "dock",
+      "kind": "extract"
+    },
+    {
+      "a": "dock",
+      "b": "extract",
+      "kind": "extract"
+    },
+    {
+      "a": "checkpoint",
+      "b": "dock",
+      "kind": "direct"
+    },
+    {
+      "a": "coast",
+      "b": "warehouse",
+      "kind": "cover"
+    }
+  ],
+  "patrols": [
+    {
+      "id": "Gate watch",
+      "nodes": [
+        "gate",
+        "checkpoint",
+        "ramp",
+        "checkpoint"
+      ],
+      "secondsPerLeg": 12,
+      "offset": 0,
+      "extractionOnly": false
+    },
+    {
+      "id": "Yard watch",
+      "nodes": [
+        "containers",
+        "warehouse",
+        "intel",
+        "warehouse"
+      ],
+      "secondsPerLeg": 14,
+      "offset": 7,
+      "extractionOnly": false
+    },
+    {
+      "id": "Pier response",
+      "nodes": [
+        "dock",
+        "relay_east",
+        "dock",
+        "extract"
+      ],
+      "secondsPerLeg": 10,
+      "offset": 0,
+      "extractionOnly": true
+    }
+  ]
+}

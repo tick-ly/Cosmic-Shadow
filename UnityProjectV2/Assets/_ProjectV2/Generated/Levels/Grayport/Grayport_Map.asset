@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2bd7aa6ec1405e832fdce15a404582, type: 3}
+  m_Name: Grayport_Map
+  m_EditorClassIdentifier: 
+  nodes:
+  - nodeId: entry
+    displayName: 01 / LANDING
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -34, y: -24}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: fork
+    displayName: ACCESS
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -24, y: -16}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: gate
+    displayName: FRONT GATE
+    terrain: 2
+    owner: 0
+    dangerLevel: 1
+    position: {x: -12, y: -16}
+    elevation: 1.02
+    exposure: 1
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: checkpoint
+    displayName: CHECKPOINT
+    terrain: 2
+    owner: 0
+    dangerLevel: 2
+    position: {x: 4, y: -16}
+    elevation: 1.02
+    exposure: 1
+    coverRating: 0
+    poweredGuard: 1
+    interaction: 0
+  - nodeId: ramp
+    displayName: RELAY APPROACH
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 17, y: -11}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: relay_front
+    displayName: SOUTH RAMP
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 17, y: 2}
+    elevation: 4.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: relay
+    displayName: 05 / RELAY
+    terrain: 2
+    owner: 2
+    dangerLevel: 2
+    position: {x: 17, y: 8}
+    elevation: 4.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: relay_west
+    displayName: WEST RAMP
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 11, y: 12}
+    elevation: 4.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: relay_east
+    displayName: EAST RAMP
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 23, y: 8}
+    elevation: 4.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: containers
+    displayName: 02 / CONTAINER YARD
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -26, y: -2}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 1
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: warehouse
+    displayName: WAREHOUSE
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -23, y: 16}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 1
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: intel
+    displayName: RECON TERMINAL
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -8, y: 16}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 1
+    poweredGuard: 0
+    interaction: 1
+  - nodeId: backgate
+    displayName: REAR ACCESS
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 8, y: 16}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 1
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: shore
+    displayName: COASTAL WALK
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -36, y: -10}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: coast
+    displayName: SEAWALL
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -36, y: 12}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: maintenance
+    displayName: 04 / MAINTENANCE
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -30, y: 26}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: power
+    displayName: POWER CONTROL
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: -14, y: 26}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 2
+  - nodeId: rear
+    displayName: SERVICE ACCESS
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 8, y: 26}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  - nodeId: dock
+    displayName: 06 / DOCK
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 35, y: 8}
+    elevation: 1.02
+    exposure: 1
+    coverRating: 0
+    poweredGuard: 1
+    interaction: 0
+  - nodeId: extract
+    displayName: EXTRACTION
+    terrain: 2
+    owner: 0
+    dangerLevel: 0
+    position: {x: 52, y: 8}
+    elevation: 1.02
+    exposure: 0
+    coverRating: 0
+    poweredGuard: 0
+    interaction: 0
+  routes:
+  - fromNodeId: entry
+    toNodeId: fork
+    routeType: 0
+  - fromNodeId: fork
+    toNodeId: gate
+    routeType: 0
+  - fromNodeId: gate
+    toNodeId: checkpoint
+    routeType: 0
+  - fromNodeId: checkpoint
+    toNodeId: ramp
+    routeType: 0
+  - fromNodeId: ramp
+    toNodeId: relay_front
+    routeType: 0
+  - fromNodeId: relay_front
+    toNodeId: relay
+    routeType: 0
+  - fromNodeId: fork
+    toNodeId: containers
+    routeType: 0
+  - fromNodeId: containers
+    toNodeId: warehouse
+    routeType: 0
+  - fromNodeId: warehouse
+    toNodeId: intel
+    routeType: 0
+  - fromNodeId: intel
+    toNodeId: backgate
+    routeType: 0
+  - fromNodeId: backgate
+    toNodeId: relay_west
+    routeType: 0
+  - fromNodeId: relay_west
+    toNodeId: relay
+    routeType: 0
+  - fromNodeId: entry
+    toNodeId: shore
+    routeType: 0
+  - fromNodeId: shore
+    toNodeId: coast
+    routeType: 0
+  - fromNodeId: coast
+    toNodeId: maintenance
+    routeType: 0
+  - fromNodeId: maintenance
+    toNodeId: power
+    routeType: 0
+  - fromNodeId: power
+    toNodeId: rear
+    routeType: 0
+  - fromNodeId: rear
+    toNodeId: backgate
+    routeType: 0
+  - fromNodeId: relay
+    toNodeId: relay_east
+    routeType: 0
+  - fromNodeId: relay_east
+    toNodeId: dock
+    routeType: 0
+  - fromNodeId: dock
+    toNodeId: extract
+    routeType: 0
+  - fromNodeId: checkpoint
+    toNodeId: dock
+    routeType: 0
+  - fromNodeId: coast
+    toNodeId: warehouse
+    routeType: 0

@@ -1,0 +1,10 @@
+{
+  "status": "static_checks_passed",
+  "nodes": 20,
+  "routes": 23,
+  "geometry_objects": 489,
+  "centerline_obstruction_count": 0,
+  "unity_import": "not_checked_by_static_generator",
+  "play_mode": "not_run",
+  "geometry_sha256": "8f6201ce405e836ef44436e7361ec493cace1697d14f514dec3013a8a76ec2a9"
+}

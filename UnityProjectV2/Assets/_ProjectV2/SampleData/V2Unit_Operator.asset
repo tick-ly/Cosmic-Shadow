@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f20f27e6e8445b7a5898a0e339e8a24, type: 3}
+  m_Name: V2Unit_Operator
+  m_EditorClassIdentifier: 
+  unitId: operator_zero
+  displayName: Operator Zero
+  domain: 0
+  scale: 1
+  movementRange: 2
+  maxHealth: 100
+  skills:
+  - {fileID: 11400000, guid: a1124fc5c8df4861bcdb9fd1a1f0a01a, type: 2}
+  - {fileID: 11400000, guid: 59e6ea79a13f4f6fafc7e75f0a566f05, type: 2}
+  - {fileID: 11400000, guid: a7a2ffb4d3c74697bf8f7b1f5efb5158, type: 2}

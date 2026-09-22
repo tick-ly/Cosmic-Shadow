@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scene_documents": 1973,
+  "geometry_objects": 489,
+  "referenced_guids_resolved": true,
+  "local_file_ids_resolved": true,
+  "encounter_config_matches_preview": true,
+  "patrol_edges_valid": true,
+  "skill_budget_config_valid": true,
+  "scene_geometry_matches_preview": true,
+  "repeat_generation_byte_identical": true,
+  "unity_import": "pending",
+  "play_mode": "pending"
+}

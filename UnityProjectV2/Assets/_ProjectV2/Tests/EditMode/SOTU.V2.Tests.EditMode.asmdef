@@ -1,0 +1,21 @@
+{
+  "name": "SOTU.V2.Tests.EditMode",
+  "rootNamespace": "ShadowOfTheUniverse.V2.Tests.EditMode",
+  "references": [
+    "SOTU.V2.Core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

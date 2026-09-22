@@ -1,0 +1,15 @@
+{
+  "name": "SOTU.V2.Tests.PlayMode",
+  "rootNamespace": "ShadowOfTheUniverse.V2.Tests",
+  "references": ["SOTU.V2.Core", "SOTU.V2.Data", "SOTU.V2.Runtime", "SOTU.V2.UI", "UnityEngine.UI"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

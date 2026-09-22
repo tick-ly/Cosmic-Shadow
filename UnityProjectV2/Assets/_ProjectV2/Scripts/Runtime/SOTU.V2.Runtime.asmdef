@@ -1,0 +1,19 @@
+{
+  "name": "SOTU.V2.Runtime",
+  "rootNamespace": "ShadowOfTheUniverse.V2.Runtime",
+  "references": [
+    "SOTU.V2.Core",
+    "SOTU.V2.Data",
+    "SOTU.V2.UI",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

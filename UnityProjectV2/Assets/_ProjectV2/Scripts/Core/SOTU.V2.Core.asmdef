@@ -1,0 +1,14 @@
+{
+  "name": "SOTU.V2.Core",
+  "rootNamespace": "ShadowOfTheUniverse.V2.Core",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

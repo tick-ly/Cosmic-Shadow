@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Grayport.ExternalApiCompileCheck</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EditorRoot Condition="'$(EditorRoot)' == ''">$(UNITY_EDITOR_DATA)</EditorRoot>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(EditorRoot)/Managed/UnityEngine/*.dll" Private="false" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+    <Compile Include="../../UnityProjectV2/Assets/_ProjectV2/Scripts/**/*.cs" />
+  </ItemGroup>
+  <Target Name="ValidateEditorRoot" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(EditorRoot)/Managed/UnityEngine/UnityEngine.CoreModule.dll')" Text="Set -p:EditorRoot to the Unity 6000.4.0f1 Editor/Data directory, or set UNITY_EDITOR_DATA." />
+  </Target>
+</Project>

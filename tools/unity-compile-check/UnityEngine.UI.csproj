@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <AssemblyName>UnityEngine.UI</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EditorRoot Condition="'$(EditorRoot)' == ''">$(UNITY_EDITOR_DATA)</EditorRoot>
+    <DefineConstants>UNITY_EDITOR;UNITY_6000_0_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2021_2_OR_NEWER;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_ANIMATION;PACKAGE_UITOOLKIT</DefineConstants>
+    <NoWarn>$(NoWarn);CS0618;CS0649</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(EditorRoot)/Managed/UnityEngine/*.dll" Private="false" />
+    <Compile Include="$(EditorRoot)/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UGUI/**/*.cs" />
+  </ItemGroup>
+  <Target Name="ValidateEditorRoot" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(EditorRoot)/Managed/UnityEngine/UnityEngine.CoreModule.dll')" Text="Set -p:EditorRoot to the Unity 6000.4.0f1 Editor/Data directory, or set UNITY_EDITOR_DATA." />
+  </Target>
+</Project>

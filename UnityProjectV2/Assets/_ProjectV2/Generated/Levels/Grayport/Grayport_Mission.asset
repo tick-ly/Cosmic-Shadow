@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ad4f1f3c5345e4a28c262d15d04a42, type: 3}
+  m_Name: Grayport_Mission
+  m_EditorClassIdentifier: 
+  missionId: grayport_blackout
+  displayName: GRAYPORT / BLACKOUT
+  missionType: 0
+  briefingText: Choose an approach. Disable the relay on the raised platform, then reach the east pier. Cyan terminals provide recon and power control.
+  timeLimitSeconds: 300
+  maxAlertLevel: 5
+  objectiveRequired: 3
+  startingCompromisePoints: 100
+  targetNodeId: relay
+  extractionNodeId: extract
+  nodeMap: {fileID: 11400000, guid: f91ba283170f53309328268a8707e156, type: 2}
+  startingUnits:
+  - unit: {fileID: 11400000, guid: b5294145682d57718737a7b17679c1ee, type: 2}
+    startNodeId: entry
+  tacticalEncountersEnabled: 1
+  patrols:
+  - Id: Gate watch
+    Nodes:
+    - gate
+    - checkpoint
+    - ramp
+    - checkpoint
+    SecondsPerLeg: 12
+    PhaseOffsetSeconds: 0
+    ExtractionOnly: 0
+  - Id: Yard watch
+    Nodes:
+    - containers
+    - warehouse
+    - intel
+    - warehouse
+    SecondsPerLeg: 14
+    PhaseOffsetSeconds: 7
+    ExtractionOnly: 0
+  - Id: Pier response
+    Nodes:
+    - dock
+    - relay_east
+    - dock
+    - extract
+    SecondsPerLeg: 10
+    PhaseOffsetSeconds: 0
+    ExtractionOnly: 1

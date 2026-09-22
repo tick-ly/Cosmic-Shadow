@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ad4f1f3c5345e4a28c262d15d04a42, type: 3}
+  m_Name: V2Mission_RelayRaid
+  m_EditorClassIdentifier: 
+  missionId: relay_raid
+  displayName: Relay Raid
+  missionType: 0
+  briefingText: Reach the enemy relay, complete three risk actions, then extract.
+  timeLimitSeconds: 300
+  maxAlertLevel: 3
+  objectiveRequired: 3
+  startingCompromisePoints: 100
+  targetNodeId: relay
+  extractionNodeId: extract
+  nodeMap: {fileID: 11400000, guid: 28d130f8b1bc48238522bed920e20bc4, type: 2}
+  startingUnits:
+  - unit: {fileID: 11400000, guid: d85ea3ff8fb343a69ecb11afc1f05004, type: 2}
+    startNodeId: base
+  - unit: {fileID: 11400000, guid: 5d765b15c1cd41cdbfe4305ebaef0723, type: 2}
+    startNodeId: base
+  - unit: {fileID: 11400000, guid: d9653d0a469441f78a4327f7cb13a84e, type: 2}
+    startNodeId: base

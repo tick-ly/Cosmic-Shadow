@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "scope": "All game Core/Data/UI/Runtime/Editor sources, compiled externally against installed Unity 6000.4.0f1 managed assemblies and bundled UGUI source",
+  "unity_import": "not_run_license_activation_required",
+  "play_mode": "not_run_license_activation_required"
+}
